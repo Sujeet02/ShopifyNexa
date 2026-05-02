@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopifyNexa — Premium Shopify Development Agency</title>
+<link href="font/css2.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='38' fill='%23f3faf1' stroke='%233a8a2e' stroke-width='2'/%3E%3Ctext x='40' y='52' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='32' fill='%233a8a2e'%3ES%3C/text%3E%3C/svg%3E" alt="ShopifyNexa logo">
+    <span class="nav-logo-text">Shopify<span>Nexa</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get Free Quote</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══ MOBILE MENU ══ -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="closeMenu()">Services</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+  <a href="#pricing" onclick="closeMenu()">Pricing</a>
+  <a href="#testimonials" onclick="closeMenu()">Reviews</a>
+  <a href="#faq" onclick="closeMenu()">FAQ</a>
+  <a href="#contact" class="mobile-cta" onclick="closeMenu()">Get Free Quote →</a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-bg-shape"></div>
+  <div class="hero-bg-shape2"></div>
+  <div class="hero-dots"></div>
+
+  <div class="hero-badge fade-up">
+    <span class="badge-dot"></span>
+    Shopify-Only Development Agency
+  </div>
+
+  <h1 class="fade-up delay-1">
+    Your Shopify Store<br>Built to <em>Convert</em><br>& Grow
+  </h1>
+
+  <p class="fade-up delay-2">
+    We solve every Shopify problem — slow stores, low conversions, outdated themes, and messy setups. Premium development, stunning redesigns, and real results.
+  </p>
+
+  <div class="hero-buttons fade-up delay-3">
+    <a href="#contact" class="btn-primary">Start My Project →</a>
+    <a href="#services" class="btn-outline">See Our Services</a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item">
+      <span class="stat-num"><span>150</span>+</span>
+      <div class="stat-label">Stores Launched</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num"><span>98</span>%</span>
+      <div class="stat-label">Client Satisfaction</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num"><span>3</span>×</span>
+      <div class="stat-label">Avg Revenue Growth</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num"><span>24</span>hr</span>
+      <div class="stat-label">Response Time</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROBLEM ══ -->
+<section class="problem" id="problem">
+  <div class="problem-inner">
+    <div>
+      <span class="section-tag">We Understand Your Pain</span>
+      <h2 class="section-title">Struggling With Your<br>Shopify Store?</h2>
+      <p class="section-sub">You're not alone. Most store owners face the same costly problems — and we fix all of them.</p>
+      <div class="problem-cta">
+        <a href="#contact" class="btn-primary">Fix My Store Today →</a>
+      </div>
+    </div>
+    <div class="problem-cards">
+      <div class="problem-card">
+        <div class="problem-icon">🐢</div>
+        <div>
+          <h4>Slow Loading Speed Killing Sales</h4>
+          <p>Every extra second costs you customers. We optimize stores to load under 2s and hit 90+ PageSpeed scores.</p>
+        </div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">🎨</div>
+        <div>
+          <h4>Outdated or Generic-Looking Theme</h4>
+          <p>Your store looks like everyone else's. We build custom themes that reflect your brand and build trust instantly.</p>
+        </div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📉</div>
+        <div>
+          <h4>Low Conversion Rate & High Bounce</h4>
+          <p>Visitors browse but don't buy. Our CRO strategies fix checkout friction and boost your revenue per visitor.</p>
+        </div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">🔧</div>
+        <div>
+          <h4>Broken Features & App Conflicts</h4>
+          <p>Apps crashing each other, broken layouts, missing functions. We diagnose and fix all technical issues fast.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">What We Do</span>
+      <h2 class="section-title">Complete Shopify Solutions,<br>Zero Guesswork</h2>
+      <p class="section-sub">From brand-new stores to full redesigns and ongoing optimization — every Shopify service under one expert roof.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🚀</div>
+        <h3>New Store Setup</h3>
+        <p>Full Shopify store built from scratch — products, collections, payment gateways, shipping, and brand configuration done right.</p>
+        <span class="service-tag">Starter Friendly</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <h3>Custom Theme Design</h3>
+        <p>Pixel-perfect bespoke themes built to your brand identity. Unique, conversion-focused designs that stand out in your niche.</p>
+        <span class="service-tag">Most Popular</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔄</div>
+        <h3>Store Redesign</h3>
+        <p>Transform your outdated or underperforming store into a modern, high-converting experience without losing your existing data.</p>
+        <span class="service-tag">Quick Impact</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">⚡</div>
+        <h3>Speed Optimization</h3>
+        <p>Full Core Web Vitals audit and optimization. We get your store to 90+ PageSpeed, improve SEO rankings, and reduce bounce rate.</p>
+        <span class="service-tag">ROI-Driven</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📈</div>
+        <h3>Conversion Rate Optimization</h3>
+        <p>Data-backed CRO — better product pages, checkout flow, trust signals, upsells, and psychology that turns browsers into buyers.</p>
+        <span class="service-tag">Revenue Boost</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔌</div>
+        <h3>App Integration & Dev</h3>
+        <p>Seamless Klaviyo, ReCharge, Loox, Yotpo integrations. Custom Shopify app development for unique business requirements.</p>
+        <span class="service-tag">Technical</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <div class="about-card-main">
+          <h3>We Are ShopifyNexa</h3>
+          <p>Founded by Shopify developers who grew frustrated seeing merchants overpay for average results. We built ShopifyNexa to be the agency we always wished existed — specialist, transparent, and fully results-driven.</p>
+          <div class="about-mini-stats">
+            <div class="mini-stat">
+              <div class="mini-stat-num">150+</div>
+              <div class="mini-stat-label">Stores Built</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-num">5★</div>
+              <div class="mini-stat-label">Avg Rating</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-num">100%</div>
+              <div class="mini-stat-label">Shopify Focus</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-num">3yr+</div>
+              <div class="mini-stat-label">Experience</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-float">
+          <div class="about-float-label">Client Revenue Generated</div>
+          <div class="about-float-val">$2M+</div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Shopify Specialists,<br>Not Generalists</h2>
+        <p class="section-sub">We don't do WordPress. We don't do Wix. We do one thing — Shopify — and we do it better than anyone.</p>
+        <div class="about-values">
+          <div class="about-value">
+            <div class="about-value-dot">🎯</div>
+            <div>
+              <h4>100% Shopify Focus</h4>
+              <p>Every developer on our team is a certified Shopify expert. Deep specialization means faster, better results for your store.</p>
+            </div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-dot">💬</div>
+            <div>
+              <h4>Direct Access to Builders</h4>
+              <p>No account managers or middlemen. You work directly with the developers building your store — fast, clear communication always.</p>
+            </div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-dot">📊</div>
+            <div>
+              <h4>Results Over Deliverables</h4>
+              <p>We measure success by your revenue and growth metrics, not just task completion. Your wins are our portfolio.</p>
+            </div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-dot">🔒</div>
+            <div>
+              <h4>Fixed Price, No Surprises</h4>
+              <p>We quote the full project upfront and never inflate the bill. What we quote is what you pay — always.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROCESS ══ -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-header" style="text-align:center">
+      <span class="section-tag">How We Work</span>
+      <h2 class="section-title">From First Call to Live Store</h2>
+      <p class="section-sub" style="margin:0 auto">A clear, collaborative process designed to deliver your project on time and beyond expectations.</p>
+    </div>
+    <div class="process-timeline">
+      <div class="process-step">
+        <div class="step-circle"><span class="step-num">01</span></div>
+        <h3>Free Discovery Call</h3>
+        <p>We learn your brand, goals, audience, and requirements. Zero obligation, just clarity.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-circle"><span class="step-num">02</span></div>
+        <h3>Strategy & Quote</h3>
+        <p>Custom roadmap, wireframes, and a transparent fixed-price quote within 48 hours.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-circle"><span class="step-num">03</span></div>
+        <h3>Design & Build</h3>
+        <p>We design and develop with regular review checkpoints so you're always in control.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-circle"><span class="step-num">04</span></div>
+        <h3>Launch & Support</h3>
+        <p>Full QA testing, go-live support, and 30 days of free post-launch assistance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHY US ══ -->
+<section class="why" id="why">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Results You Can<br>Actually Measure</h2>
+        <p class="section-sub" style="margin-bottom:2.5rem">Every project we take delivers measurable improvements. Here's what our clients see on average after working with us.</p>
+        <div class="why-points">
+          <div class="why-point">
+            <div class="why-icon">⚡</div>
+            <div>
+              <h4>Speed-First Approach</h4>
+              <p>Every build prioritizes Core Web Vitals. Faster stores rank higher, convert better, and retain more customers.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-icon">🏆</div>
+            <div>
+              <h4>Proven Track Record</h4>
+              <p>150+ successful projects across fashion, beauty, health, and electronics niches. We know what works in your market.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-icon">🌍</div>
+            <div>
+              <h4>Global Clients, Local Care</h4>
+              <p>We work with brands from India, UAE, UK, USA and beyond — and treat every client like our only client.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-metrics">
+        <h4>Average Client Results After Launch</h4>
+        <div class="metric-row">
+          <span class="metric-label">PageSpeed Score</span>
+          <div class="metric-bar"><div class="metric-fill" style="width:94%"></div></div>
+          <span class="metric-val">94/100</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Conversion Lift</span>
+          <div class="metric-bar"><div class="metric-fill" style="width:70%"></div></div>
+          <span class="metric-val">+70%</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Revenue Growth</span>
+          <div class="metric-bar"><div class="metric-fill" style="width:80%"></div></div>
+          <span class="metric-val">+3×</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Bounce Rate Drop</span>
+          <div class="metric-bar"><div class="metric-fill" style="width:60%"></div></div>
+          <span class="metric-val">−40%</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">On-Time Delivery</span>
+          <div class="metric-bar"><div class="metric-fill" style="width:97%"></div></div>
+          <span class="metric-val">97%</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Client Retention</span>
+          <div class="metric-bar"><div class="metric-fill" style="width:92%"></div></div>
+          <span class="metric-val">92%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRICING ══ -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-header" style="text-align:center">
+      <span class="section-tag">Pricing</span>
+      <h2 class="section-title">Transparent Pricing,<br>Zero Surprises</h2>
+      <p class="section-sub" style="margin:0 auto">Every plan includes free consultation and 30-day post-launch support. Need something custom? Just ask.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="plan-name">Starter</div>
+        <div class="plan-price"><sup>$</sup>499<small> /project</small></div>
+        <p class="plan-desc">For entrepreneurs launching their first store with a polished, professional look.</p>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Shopify Store Setup</li>
+          <li><span class="check">✓</span> Premium Theme Config</li>
+          <li><span class="check">✓</span> Up to 50 Products</li>
+          <li><span class="check">✓</span> Payment Gateway Setup</li>
+          <li><span class="check">✓</span> Mobile Responsive</li>
+          <li><span class="check">✓</span> 30-Day Support</li>
+        </ul>
+        <a href="#contact" class="btn-plan">Get Started</a>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="featured-badge">Most Popular</div>
+        <div class="plan-name">Professional</div>
+        <div class="plan-price"><sup>$</sup>1,299<small> /project</small></div>
+        <p class="plan-desc">Full custom design + CRO for growing brands ready to scale revenue.</p>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Everything in Starter</li>
+          <li><span class="check">✓</span> Custom Theme Design</li>
+          <li><span class="check">✓</span> Unlimited Products</li>
+          <li><span class="check">✓</span> Speed Optimization</li>
+          <li><span class="check">✓</span> CRO Audit & Fixes</li>
+          <li><span class="check">✓</span> Up to 5 App Integrations</li>
+          <li><span class="check">✓</span> 60-Day Priority Support</li>
+        </ul>
+        <a href="#contact" class="btn-plan">Get Started</a>
+      </div>
+
+      <div class="pricing-card">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-price" style="font-size:2.2rem">Custom</div>
+        <p class="plan-desc">Bespoke solutions for established brands with complex, high-volume needs.</p>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Everything in Professional</li>
+          <li><span class="check">✓</span> Custom App Development</li>
+          <li><span class="check">✓</span> ERP / CRM Integrations</li>
+          <li><span class="check">✓</span> Multi-currency & Languages</li>
+          <li><span class="check">✓</span> Dedicated Project Manager</li>
+          <li><span class="check">✓</span> 90-Day SLA Support</li>
+        </ul>
+        <a href="#contact" class="btn-plan">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PORTFOLIO ══ -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="portfolio-header">
+      <div>
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title">Stores We've Built<br>& Transformed</h2>
+      </div>
+      <p style="font-size:.9rem;color:var(--text-muted);max-width:320px;text-align:right;line-height:1.7">Real brands, real results. Each project is custom-built to match the brand's unique identity and goals.</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-placeholder">
+          <div class="portfolio-icon">🛍️</div>
+          <div class="portfolio-add-text">Your Brand Here<br><small style="color:var(--gray-300)">Share your store link</small></div>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Fashion & Apparel</div>
+          <div class="overlay-title">Coming Soon</div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-placeholder">
+          <div class="portfolio-icon">💄</div>
+          <div class="portfolio-add-text">Your Brand Here<br><small style="color:var(--gray-300)">Share your store link</small></div>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Beauty & Skincare</div>
+          <div class="overlay-title">Coming Soon</div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-placeholder">
+          <div class="portfolio-icon">🏋️</div>
+          <div class="portfolio-add-text">Your Brand Here<br><small style="color:var(--gray-300)">Share your store link</small></div>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Health & Fitness</div>
+          <div class="overlay-title">Coming Soon</div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-placeholder">
+          <div class="portfolio-icon">📱</div>
+          <div class="portfolio-add-text">Your Brand Here<br><small style="color:var(--gray-300)">Share your store link</small></div>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Electronics</div>
+          <div class="overlay-title">Coming Soon</div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-placeholder">
+          <div class="portfolio-icon">🏠</div>
+          <div class="portfolio-add-text">Your Brand Here<br><small style="color:var(--gray-300)">Share your store link</small></div>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Home & Living</div>
+          <div class="overlay-title">Coming Soon</div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-placeholder">
+          <div class="portfolio-icon">🍽️</div>
+          <div class="portfolio-add-text">Your Brand Here<br><small style="color:var(--gray-300)">Share your store link</small></div>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Food & Beverage</div>
+          <div class="overlay-title">Coming Soon</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-note">
+      <span style="font-size:1.3rem">📌</span>
+      <span>Portfolio is being updated — DM us on Instagram <strong>@shopifynexa</strong> to see live store examples in your specific niche.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS ══ -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header" style="text-align:center">
+      <span class="section-tag">Client Reviews</span>
+      <h2 class="section-title">What Store Owners Say</h2>
+      <p class="section-sub" style="margin:0 auto">Real feedback from real businesses that grew with ShopifyNexa.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"ShopifyNexa completely transformed our store. Sales literally doubled within 60 days of launch. The team was incredibly professional, fast, and delivered exactly what we envisioned."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">RS</div>
+          <div>
+            <div class="author-name">Ravi Sharma</div>
+            <div class="author-role">Founder, The Ethnic Closet</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"The speed optimization was a game-changer. We went from a 38 to 96 PageSpeed score. Bounce rate dropped 40% and our Google Ads ROAS improved by almost 2×. Worth every rupee."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">AM</div>
+          <div>
+            <div class="author-name">Aisha Mohammed</div>
+            <div class="author-role">CEO, Luxe Beauty Co.</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Best Shopify agency we've worked with. The custom theme is absolutely stunning and customers constantly compliment how clean and fast our store feels. Highly recommended!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">JP</div>
+          <div>
+            <div class="author-name">James Parker</div>
+            <div class="author-role">Co-Founder, Parker Athletics</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header" style="text-align:center">
+      <span class="section-tag">FAQ</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-sub" style="margin:0 auto">Everything you need to know before getting started.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How long does it take to build my Shopify store?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-answer">Starter plans typically take 7–14 days. Professional projects 3–5 weeks. Enterprise builds 6–12 weeks. We'll give you an exact timeline during your free consultation call.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Can you redesign my existing Shopify store?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-answer">Absolutely — redesigns are one of our most requested services. We'll give your existing store a complete visual and performance overhaul without losing your products, orders, or SEO history.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Will I be able to manage my store myself after launch?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-answer">Yes, every project includes a full training session and written documentation so you can confidently manage products, collections, and content without any technical knowledge needed.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Do you offer monthly maintenance plans?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-answer">Yes! We have flexible monthly retainers starting from $199/month covering updates, bug fixes, performance monitoring, and priority support. Ask us for the current maintenance packages.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How does payment work?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-answer">We work on a 50% upfront, 50% on project completion basis. We accept bank transfer, PayPal, Stripe, and Wise for international clients. Full price is always quoted before any work begins.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Do you work with clients outside India?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-answer">Yes! We work with clients globally across UAE, UK, USA, Canada, Australia, and more. We communicate clearly across time zones and adapt to your preferred work schedule.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Ready to Build a<br>Store That Sells?</h2>
+        <p>Tell us about your project and we'll get back within 24 hours with a free consultation and custom quote — no commitment required.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="contact-icon">📧</div>
+            <span>hello@shopifynexa.com</span>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">📸</div>
+            <span>Instagram: @shopifynexa</span>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">⏰</div>
+            <span>Mon – Sat, reply within 24 hours</span>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">🌍</div>
+            <span>Serving clients worldwide</span>
+          </div>
+        </div>
+        <div style="background:var(--green-light);border:1px solid rgba(58,138,46,.2);border-radius:var(--radius-md);padding:1.2rem 1.4rem;font-size:.88rem;color:var(--green-dark);font-weight:500;line-height:1.6">
+          💡 <strong>Free Audit Offer:</strong> Include your store URL and we'll send a free speed + conversion audit with your quote.
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send an Inquiry</h3>
+        <div id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="John">
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Doe">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="formEmail" placeholder="john@yourstore.com">
+          </div>
+          <div class="form-group">
+            <label>Store URL (optional)</label>
+            <input type="text" placeholder="yourstore.myshopify.com">
+          </div>
+          <div class="form-group">
+            <label>Service Needed</label>
+            <select id="formService">
+              <option value="">Select a service...</option>
+              <option>New Shopify Store Setup</option>
+              <option>Custom Theme / Redesign</option>
+              <option>Speed Optimization</option>
+              <option>Conversion Rate Optimization</option>
+              <option>App Integration</option>
+              <option>Store Migration</option>
+              <option>Monthly Maintenance</option>
+              <option>Other / Not Sure Yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Budget Range</label>
+            <select>
+              <option value="">Select your budget...</option>
+              <option>Under $500</option>
+              <option>$500 – $1,000</option>
+              <option>$1,000 – $2,500</option>
+              <option>$2,500 – $5,000</option>
+              <option>$5,000+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell Us About Your Project</label>
+            <textarea placeholder="Describe your store, what you sell, your current problems, and what you want to achieve..."></textarea>
+          </div>
+          <button class="form-submit" onclick="submitForm()">Send Inquiry →</button>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <div style="font-size:2.5rem;margin-bottom:.6rem">✅</div>
+          <p style="font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:.4rem">Message Received!</p>
+          <p style="color:var(--text-muted);font-size:.9rem">We'll review your inquiry and get back within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA BAND ══ -->
+<div class="cta-band">
+  <h2>Stop Losing Sales.<br>Build the Store You Deserve.</h2>
+  <p>Join 150+ brands that chose ShopifyNexa. Free consultation, no obligation.</p>
+  <a href="#contact" class="btn-primary">Book My Free Call →</a>
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-icon">SN</div>
+          <span class="footer-logo-text">Shopify<span>Nexa</span></span>
+        </div>
+        <p>Premium Shopify development agency helping brands build high-converting stores. Shopify specialists, not generalists.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" title="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="rgba(255,255,255,.7)"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          </a>
+          <a href="#" class="social-link" title="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-link" title="Twitter/X">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="rgba(255,255,255,.7)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link" title="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services">New Store Setup</a>
+        <a href="#services">Custom Theme Dev</a>
+        <a href="#services">Store Redesign</a>
+        <a href="#services">Speed Optimization</a>
+        <a href="#services">CRO Services</a>
+        <a href="#services">App Integration</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#process">Our Process</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get Started</h4>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Free Quote</a>
+        <a href="#contact">Book a Call</a>
+        <a href="#contact">Contact Us</a>
+        <a href="mailto:hello@shopifynexa.com">Email Us</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 ShopifyNexa. All rights reserved.</span>
+      <span>Built with ♥ for Shopify merchants worldwide</span>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
